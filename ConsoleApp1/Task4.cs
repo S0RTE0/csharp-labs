@@ -1,4 +1,4 @@
-namespace P1;
+namespace P2;
 
 public class Task4
 {
