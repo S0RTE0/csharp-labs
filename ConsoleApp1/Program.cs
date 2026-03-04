@@ -6,12 +6,14 @@ namespace P2
     {
         private static void Main(string[] args)
         {
-            Task1 t1 = new Task1();
-            t1.Run();
-            Task2 t2 = new Task2();
-            t2.Run();
-            Task3 t3 = new Task3();
-            t3.Run();
+            //Task1 t1 = new Task1();
+            //t1.Run();
+            //Task2 t2 = new Task2();
+            //t2.Run();
+            //Task3 t3 = new Task3();
+            //t3.Run();
+            Task4 t4 = new Task4();
+            t4.Run();
         }
 
     }

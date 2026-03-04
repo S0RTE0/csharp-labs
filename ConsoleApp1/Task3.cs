@@ -13,13 +13,13 @@ public class Task3
 
         Console.WriteLine("Original array: " + string.Join(", ", array));
 
-        reverse(array);
-        bNum(array);
-        findFzero(array);
-        checkDuplicates(array);
+        ReverseArray(array);
+        GreaterThanNum(array);
+        FindFirstZeroIndex(array);
+        CheckDuplicates(array);
     }
 
-    private void reverse(int[] arr)
+    private void ReverseArray(int[] arr)
     {
         Console.Write("Reversed array: ");
         for (int i = arr.Length - 1; i >= 0; i--)
@@ -30,7 +30,7 @@ public class Task3
         Console.WriteLine();
     }
 
-    private void bNum(int[] arr)
+    private void GreaterThanNum(int[] arr)
     {
         int count = 0;
         for (int i = 1; i < arr.Length; i++)
@@ -44,7 +44,7 @@ public class Task3
         Console.WriteLine($"Bigger nums: {count}");
     }
 
-    private void findFzero(int[] arr)
+    private void FindFirstZeroIndex(int[] arr)
     {
         for (int i = 0; i < arr.Length; i++)
         {
@@ -56,7 +56,7 @@ public class Task3
         }
     }
 
-    private void checkDuplicates(int[] arr)
+    private void CheckDuplicates(int[] arr)
     {
         for (int i = 1; i < arr.Length; i++)
         {
