@@ -105,7 +105,6 @@
             }
             Console.WriteLine("----------------------------------------");
             
-            // Total sum
             Console.WriteLine($"TOTAL TO PAY: ${CalculateTotal()}");
             Console.WriteLine("========================================");
         }
